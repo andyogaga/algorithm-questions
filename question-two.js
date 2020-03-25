@@ -36,4 +36,8 @@ const sortOddNumbers = arr => {
   return arr;
 };
 
+// This could be improved to improve the performance using either Merge sort
+// or the Quick sort but I was not able to also form a comprehensible algorithm 
+// as quick as necessary.
+
 console.log(sortOddNumbers([5, 3,0,4,5,1,3,7, 2, 0, 1, 8, 7, 8, 1, 4]));
