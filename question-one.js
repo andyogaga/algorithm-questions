@@ -33,12 +33,11 @@ function nbYear(p0, percent, aug, p) {
   while (population < p) {
     years++;
     population = (population * percentage)+ aug;
-    percentage = percentage * (1 + percentageDecimal);
   }
   return years;
 }
 
-console.log('result', nbYear(1000, 2, 50, 1200));
+console.log('result using while loop', nbYear(1000, 2, 100, 3000));
 
 
 // Solution Using recursion
@@ -67,4 +66,4 @@ function nbYearRecursion(p0, percent, aug, p) {
   return getYears(p0, percentageDecimal, aug, p, 0);
 }
 
-// console.log('result recursion', nbYearRecursion(1000, 2, 50, 1200));
+console.log('result using recursion', nbYearRecursion(1000, 2, 100, 3000));
