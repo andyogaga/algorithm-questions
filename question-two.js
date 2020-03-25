@@ -36,4 +36,4 @@ const sortOddNumbers = arr => {
   return arr;
 };
 
-console.log(sortOddNumbers([5, 3, 2, 0, 1, 8, 7, 8, 1, 4]));
+console.log(sortOddNumbers([5, 3,0,4,5,1,3,7, 2, 0, 1, 8, 7, 8, 1, 4]));
